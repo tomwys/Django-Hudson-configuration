@@ -1,0 +1,6 @@
+<VirtualHost *:80>
+        ServerName domain
+        ServerAdmin tomasz@wysocki.info
+	WSGIScriptAlias / path
+	WSGIDaemonProcess domain user=hudson
+</VirtualHost>
